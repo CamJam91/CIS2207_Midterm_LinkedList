@@ -1,0 +1,36 @@
+﻿  Driver.cpp
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'Driver.cpp')
+      C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27):
+      the template instantiation context (the oldest one first) is
+          C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(6,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(27,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(66,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(150,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'Driver.cpp')
+  
+  LinkedList.cpp
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LinkedList.cpp')
+      C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27):
+      the template instantiation context (the oldest one first) is
+          C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(6,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(27,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LinkedList.cpp')
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(66,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LinkedList.cpp')
+  
+C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(150,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'LinkedList.cpp')
+  
+  Generating Code...
+  Rainfall.vcxproj -> C:\Users\camer\source\repos\Rainfall\x64\Debug\Rainfall.exe
