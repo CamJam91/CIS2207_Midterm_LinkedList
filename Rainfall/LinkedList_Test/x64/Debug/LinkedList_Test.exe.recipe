@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\camer\source\repos\Rainfall\x64\Debug\Rainfall.exe</FullPath>
+      <FullPath>C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\x64\Debug\Rainfall.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\camer\source\repos\Rainfall\x64\Debug\LinkedList_Test.exe</FullPath>
+      <FullPath>C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\x64\Debug\LinkedList_Test.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

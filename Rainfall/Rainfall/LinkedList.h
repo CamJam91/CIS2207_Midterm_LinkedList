@@ -11,6 +11,8 @@ private:
 	int count;
 		//getters
 	Node<T>* getNodeAt(int position);
+		//setters
+	void clearHelper(Node<T>* node);
 public:
 		//constructors
 	LinkedList();
@@ -30,7 +32,7 @@ public:
 	//constructors
 template<typename T>
 LinkedList<T>::LinkedList() {
-	headNode = new Node<T>();
+	headNode = nullptr;
 	tailNode = headNode;
 	count = 0;
 }
@@ -91,8 +93,9 @@ bool LinkedList<T>::insert(int position, const T& element) {
 
 template<typename T>
 void LinkedList<T>::push(const T element) {
-	if (count == 0) { //list is empty, so we can just set our null node to an element
-		headNode->setElement(element);
+	if (count == 0) { 
+		headNode = new Node<T>(element);
+		tailNode = headNode;
 	}
 	else { //list is not empty so we create new tail, and link them to eachother
 		Node<T>* newTail = new Node<T>(element, tailNode, nullptr);
@@ -134,21 +137,25 @@ bool LinkedList<T>::remove(int position) {
 	return false;
 }
 
+	//recursively call helper to delete node data and nodes
 template<typename T>
 void LinkedList<T>::clear() {
-	Node<T>* removeNode;
-		//for loop stops one node before last
-	for (int count = this->count; count > 0; count--) {
-		removeNode = getNodeAt(count);  
-		delete removeNode; //delete the nodes contents
-	}
-	removeNode = nullptr; //remove dangling pointer
+	clearHelper(tailNode);
 	count = 0;
 }
 
 template<typename T>
+void LinkedList<T>::clearHelper(Node<T>* node) {
+	if (node->getPrevious() != nullptr){
+		clearHelper(node->getPrevious());
+	}
+	delete node; //delete memory
+	node = nullptr; //delete pointer
+}
+
+template<typename T>
 void LinkedList<T>::setEntry(int position, const T& element) throw (PrecondViolatedExcep){
-	if (position < 1 || position > count)
+	if (position < 1 || position > this->count)
 		throw new PrecondViolatedExcep("Set Entry called on invalid position.");
 	Node<T>* replaceNode = getNodeAt(position);
 	replaceNode->setElement(element);

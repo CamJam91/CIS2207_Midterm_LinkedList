@@ -1,40 +1,40 @@
 ﻿  test.cpp
-C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(20,27):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27):
       the template instantiation context (the oldest one first) is
-          C:\Users\camer\source\repos\Rainfall\LinkedList_Test\test.cpp(4,19):
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(4,19):
           see reference to class template instantiation 'LinkedList<int>' being compiled
   
-C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(27,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(29,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
   (compiling source file '/test.cpp')
   
-C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(66,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(66,41):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41):
       the template instantiation context (the oldest one first) is
-          C:\Users\camer\source\repos\Rainfall\LinkedList_Test\test.cpp(4,19):
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(4,19):
           see reference to class template instantiation 'LinkedList<int>' being compiled
-          C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(66,69):
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,69):
           while compiling class template member function 'T LinkedList<T>::getEntry(int) throw(PrecondViolatedExcep)'
           with
           [
               T=int
           ]
-              C:\Users\camer\source\repos\Rainfall\LinkedList_Test\test.cpp(7,3):
-              see the first reference to 'LinkedList<int>::getEntry' in 'LinkedListCase_addNode_Test::TestBody'
+              C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(19,1):
+              see the first reference to 'LinkedList<int>::getEntry' in 'LinkedListCase_setNode_Test::TestBody'
   
-C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(150,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(150,62):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62):
       the template instantiation context (the oldest one first) is
-          C:\Users\camer\source\repos\Rainfall\Rainfall\LinkedList.h(150,90):
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,90):
           while compiling class template member function 'void LinkedList<int>::setEntry(int,const T &) throw(PrecondViolatedExcep)'
           with
           [
               T=int
           ]
-              C:\Users\camer\source\repos\Rainfall\LinkedList_Test\test.cpp(16,3):
-              see the first reference to 'LinkedList<int>::setEntry' in 'LinkedListCase_addNode_Test::TestBody'
+              C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(16,1):
+              see the first reference to 'LinkedList<int>::setEntry' in 'LinkedListCase_setNode_Test::TestBody'
   
-  LinkedList_Test.vcxproj -> C:\Users\camer\source\repos\Rainfall\x64\Debug\LinkedList_Test.exe
+  LinkedList_Test.vcxproj -> C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\x64\Debug\LinkedList_Test.exe

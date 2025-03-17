@@ -42,7 +42,7 @@ template<typename T>
 Node<T>::Node(const T element, Node* previous, Node* next) {
 	this->element = element;
 	this->next = next;
-	this->previous = next;
+	this->previous = previous;
 }
 
 	//getters
