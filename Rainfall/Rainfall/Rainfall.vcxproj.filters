@@ -27,12 +27,33 @@
     <ClInclude Include="PrecondViolatedExcep.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RainDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserVerification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RainDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserVerification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

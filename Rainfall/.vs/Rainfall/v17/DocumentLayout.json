@@ -3,8 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\UserVerification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\RainDataHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\UserVerification.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C998CC6C-9774-49AA-80D6-7410B8BEBD80}|LinkedList_Test\\LinkedList_Test.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C998CC6C-9774-49AA-80D6-7410B8BEBD80}|LinkedList_Test\\LinkedList_Test.vcxproj|solutionrelative:LinkedList_Test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\RainDataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,10 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\ListInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\ListInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{90FBF2EC-3AF5-4654-B2A7-A9B1630E98B0}|Rainfall\\Rainfall.vcxproj|solutionrelative:Rainfall\\Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C998CC6C-9774-49AA-80D6-7410B8BEBD80}|LinkedList_Test\\LinkedList_Test.vcxproj|C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -52,7 +79,7 @@
         },
         {
           "DockedWidth": 181,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Node.h",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Node.h",
               "RelativeDocumentMoniker": "Rainfall\\Node.h",
@@ -69,18 +96,17 @@
               "ViewState": "AgIAADUAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-10T00:56:32.078Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Driver.cpp",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Driver.cpp",
               "RelativeDocumentMoniker": "Rainfall\\Driver.cpp",
               "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Driver.cpp",
               "RelativeToolTip": "Rainfall\\Driver.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T01:33:46.117Z",
               "IsPinned": true,
@@ -88,16 +114,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "test.cpp",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\test.cpp",
               "RelativeDocumentMoniker": "LinkedList_Test\\test.cpp",
               "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\test.cpp",
               "RelativeToolTip": "LinkedList_Test\\test.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwDAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-12T19:15:11.387Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utilities.cpp",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.cpp",
+              "RelativeDocumentMoniker": "Rainfall\\Utilities.cpp",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.cpp",
+              "RelativeToolTip": "Rainfall\\Utilities.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T01:03:22.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "string",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAMwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-18T23:21:10.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utilities.h",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.h",
+              "RelativeDocumentMoniker": "Rainfall\\Utilities.h",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\Utilities.h",
+              "RelativeToolTip": "Rainfall\\Utilities.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T22:40:19.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserVerification.h",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.h",
+              "RelativeDocumentMoniker": "Rainfall\\UserVerification.h",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.h",
+              "RelativeToolTip": "Rainfall\\UserVerification.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T14:31:52.776Z",
               "EditorCaption": ""
             },
             {
@@ -105,25 +183,59 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserVerification.cpp",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.cpp",
+              "RelativeDocumentMoniker": "Rainfall\\UserVerification.cpp",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\UserVerification.cpp",
+              "RelativeToolTip": "Rainfall\\UserVerification.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T14:49:11.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "RainDataHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.cpp",
+              "RelativeDocumentMoniker": "Rainfall\\RainDataHandler.cpp",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.cpp",
+              "RelativeToolTip": "Rainfall\\RainDataHandler.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T21:10:02.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RainDataHandler.h",
+              "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.h",
+              "RelativeDocumentMoniker": "Rainfall\\RainDataHandler.h",
+              "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\RainDataHandler.h",
+              "RelativeToolTip": "Rainfall\\RainDataHandler.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-17T20:55:34.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LinkedList.h",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\LinkedList.h",
               "RelativeDocumentMoniker": "Rainfall\\LinkedList.h",
               "ToolTip": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\LinkedList.h",
               "RelativeToolTip": "Rainfall\\LinkedList.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwJ4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-13T01:07:16.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T01:07:16.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ListInterface.h",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\Rainfall\\ListInterface.h",
               "RelativeDocumentMoniker": "Rainfall\\ListInterface.h",
@@ -131,12 +243,11 @@
               "RelativeToolTip": "Rainfall\\ListInterface.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-13T01:07:31.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T01:07:31.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "pch.cpp",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\pch.cpp",
               "RelativeDocumentMoniker": "LinkedList_Test\\pch.cpp",
@@ -144,12 +255,11 @@
               "RelativeToolTip": "LinkedList_Test\\pch.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T00:59:17.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T00:59:17.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\camer\\source\\repos\\CIS2207_Midterm_LinkedList\\Rainfall\\LinkedList_Test\\pch.h",
               "RelativeDocumentMoniker": "LinkedList_Test\\pch.h",
@@ -157,8 +267,7 @@
               "RelativeToolTip": "LinkedList_Test\\pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-13T00:58:08.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T00:58:08.935Z"
             }
           ]
         }

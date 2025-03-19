@@ -1,18 +1,30 @@
 ﻿  Driver.cpp
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file 'Driver.cpp')
       C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27):
       the template instantiation context (the oldest one first) is
           C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(6,7):
           while compiling class template 'LinkedList'
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(29,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,34): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file 'Driver.cpp')
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(29,49): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file 'Driver.cpp')
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(29,56): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,48): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'Driver.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,69): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file 'Driver.cpp')
   
   Rainfall.vcxproj -> C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\x64\Debug\Rainfall.exe
