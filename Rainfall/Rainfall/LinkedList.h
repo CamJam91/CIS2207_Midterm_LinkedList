@@ -2,6 +2,7 @@
 #include "ListInterface.h"
 #include "PrecondViolatedExcep.h"
 #include "Node.h"
+//TODO: Check for memory leaks
 template<typename T>
 class LinkedList : public ListInterface<T>
 {

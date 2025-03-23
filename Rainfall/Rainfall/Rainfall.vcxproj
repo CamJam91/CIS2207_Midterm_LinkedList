@@ -133,16 +133,22 @@
     <ClInclude Include="ListInterface.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="PrecondViolatedExcep.h" />
-    <ClInclude Include="RainDataHandler.h" />
+    <ClInclude Include="DataHandler.h" />
+    <ClInclude Include="Sort.h" />
     <ClInclude Include="UserVerification.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Driver.cpp" />
     <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="RainDataHandler.cpp" />
+    <ClCompile Include="DataHandler.cpp" />
     <ClCompile Include="UserVerification.cpp" />
-    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Utilities.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

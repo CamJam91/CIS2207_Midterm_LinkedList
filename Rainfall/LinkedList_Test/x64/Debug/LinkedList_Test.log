@@ -1,22 +1,54 @@
-﻿  test.cpp
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+﻿  pch.cpp
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(23,27): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(23,27):
+      the template instantiation context (the oldest one first) is
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(7,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(23,34): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(30,49): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(30,56): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(69,41): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(69,48): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(158,62): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(158,69): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\DataHandler.h(24,54): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
+  (compiling source file 'pch.cpp')
+  
+  test.cpp
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(23,34): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(22,27):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(23,34):
       the template instantiation context (the oldest one first) is
           C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(4,19):
           see reference to class template instantiation 'LinkedList<int>' being compiled
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(29,49): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(30,56): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file '/test.cpp')
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(69,48): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,41):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(69,48):
       the template instantiation context (the oldest one first) is
           C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(4,19):
           see reference to class template instantiation 'LinkedList<int>' being compiled
-          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(68,69):
-          while compiling class template member function 'T LinkedList<T>::getEntry(int) throw(PrecondViolatedExcep)'
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(69,69):
+          while compiling class template member function 'T LinkedList<T>::getEntry(int) noexcept(false)'
           with
           [
               T=int
@@ -24,12 +56,12 @@ C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedL
               C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\LinkedList_Test\test.cpp(19,1):
               see the first reference to 'LinkedList<int>::getEntry' in 'LinkedListCase_setNode_Test::TestBody'
   
-C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(158,69): warning C5040: dynamic exception specifications are valid only in C++14 and earlier; treating as noexcept(false)
   (compiling source file '/test.cpp')
-      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,62):
+      C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(158,69):
       the template instantiation context (the oldest one first) is
-          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(157,90):
-          while compiling class template member function 'void LinkedList<int>::setEntry(int,const T &) throw(PrecondViolatedExcep)'
+          C:\Users\camer\source\repos\CIS2207_Midterm_LinkedList\Rainfall\Rainfall\LinkedList.h(158,90):
+          while compiling class template member function 'void LinkedList<int>::setEntry(int,const T &) noexcept(false)'
           with
           [
               T=int

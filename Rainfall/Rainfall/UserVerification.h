@@ -20,7 +20,7 @@ bool containsString(string, string*, int);
 
 bool containsString(string userString, regex pattern);
 
-bool checkDate(string userDate, int lowerYear, string errorMessage);
+bool checkDate(string userDate, int lowerYear);
 
 
 #endif

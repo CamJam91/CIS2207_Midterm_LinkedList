@@ -6,5 +6,7 @@
     <TestDuration Test="LinkedListCase.clear" Duration="1" />
     <TestDuration Test="LinkedListCase.setNode" Duration="1" />
     <TestDuration Test="LinkedListCase.insertandRemove" Duration="1" />
+    <TestDuration Test="RainDataCase.addAndGet" Duration="1" />
+    <TestDuration Test="RainDataCase.getAndsetEntry" Duration="1" />
   </TestDurations>
 </GtaTestDurations>

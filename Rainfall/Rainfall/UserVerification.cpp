@@ -4,7 +4,6 @@ CIS2207 N02
 A file for verifying user input. Takes a lower bound, upper bound and error message*/
 #include "UserVerification.h"
 
-    //Fix: cin and cout should exist in main, have this function return a bool or int to represent success
 int numberVerification(int lowerBound, int upperBound, string errorMessage) {
     int userNumber;
     string userString;
@@ -22,10 +21,12 @@ int numberVerification(int lowerBound, int upperBound, string errorMessage) {
 double numberVerification(double lowerBound, double upperBound, string errorMessage) {
     double userNumber;
     string userString;
+    cin.clear();
     getline(cin, userString);
     stringstream(userString) >> userNumber;
     while (userNumber < lowerBound || userNumber > upperBound) {
         cout << errorMessage; //number is not in range
+        cin.clear();
         getline(cin, userString);
         stringstream(userString) >> userNumber;
     }
@@ -33,15 +34,15 @@ double numberVerification(double lowerBound, double upperBound, string errorMess
     return userNumber;
 }
 
-    //Fix: cin and cout should exist in main, have this function return a bool or int to represent success
 char charVerification(char allowedCharacters[], int size, string errorMessage) {
     char userChar;
     bool allowed = false;
     while (!allowed) {
-    cin >> userChar;
-        for (int count = 0; count < size; count++) {
-            if (userChar = allowedCharacters[count]) { allowed = true; }
-        }
+		cin >> userChar;
+			for (int count = 0; count < size; count++) {
+				if (userChar == allowedCharacters[count]) { allowed = true; }
+			}
+            if (!allowed) { cout << errorMessage; }
     }
     return userChar;
 }
@@ -93,20 +94,6 @@ bool containsString(string baseString, string* compareStrings, int size) {
     return false;
 }
 
-    //takes a regex and makes sure it matches
 bool containsString(string userString, regex pattern) {
     return regex_match(userString, pattern);
-}
-
-bool checkDate(string userDate, int lowerYear, string errorMessage) {
-    int yearCheck;
-    int monthCheck;
-    int dayCheck;
-    yearCheck = stoi(userDate.substr(0,4));
-    monthCheck = stoi(userDate.substr(5, 2));
-    dayCheck = stoi(userDate.substr(8,2));
-    if (yearCheck < lowerYear || monthCheck < 1 || monthCheck > 12 || dayCheck < 1 || dayCheck > 31) { 
-        cout << errorMessage;
-        return false; }
-    return true;
 }

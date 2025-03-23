@@ -1,14 +1,18 @@
 #include "LinkedList.h"
-#include "RainDataHandler.h"
+#include "DataHandler.h"
 #include "PrecondViolatedExcep.h"
 #include "UserVerification.h"
 #include <chrono>
 #include <iostream>
 #include <regex>
+#include "Utilities.h"
+#include<vector>
 using namespace std;
 
-void initializeRainHandler();
-void enterRainData();
+void addData(DataHandler& dataHandler);
+void editData(DataHandler& datahandler);
+void print(DataHandler& dataHandler);
+void test(DataHandler& dataHandler);
 
 	//RainData structure holds a chrono date and rainfall in cm 
 struct RainData {
@@ -17,31 +21,91 @@ struct RainData {
 };
 
 int main() {
-	initializeRainHandler();
+	char userChar;
+	char allowedChar[] = { 'A','a','E','e', 'P', 'p', 'T', 't', 'Q', 'q' };
+	DataHandler dataHandler;
+
+	do {
+		printf("A: Add a Day of data\nE: Edit a day of data\nP: Print report\nT: quick data entry for test\nQ: Quit\n>>");
+		userChar = charVerification(allowedChar, 8, "A: Add a Day of data\nE: Edit a day of data\nP: Print report\nT: quick data entry for test\nQ: Quit\n>>");
+		userChar = toupper(userChar);
+		switch (userChar) {
+		case 'A':	addData(dataHandler);
+			break;
+		case 'E':	editData(dataHandler);
+			break;
+		case 'P':	print(dataHandler);
+			break;
+		case 'T':	test(dataHandler);
+			break;
+		}
+	} while (userChar != 'Q');
 	return 0;
 }
 
-	//create rainhandler class using user input
-void initializeRainHandler() {
-	printf("Welcome to the Rainfall tracker.\n");
-	printf("How many initial months would you like to track?\n>>");
-	int userMonths = numberVerification(0, 100, "Please choose an amount of months between 0-100\n>>");
-	string userString;
-	regex validFormat("^\\d{4}/\\d{2}/\\d{2}$"); //format for our date
+void addData(DataHandler& dataHandler) {
+	string userDate;
+	bool success;
 	double rainInCm;
-	RainData* rainData = new RainData[userMonths];
+	printf("Enter a day in format yyyy/mm/dd\n>>");
+	cin.ignore();
+	getline(cin, userDate);
+	printf("\nEnter the amount of rainfall in Centimeters that occured this date:\n>>");
+	rainInCm = numberVerification(0.0, 182.5, "Enter a value: 0-182.5");
+	try {
+		success = dataHandler.enterData(userDate, rainInCm);
+		if (!success) { printf("Invalid date, add aborted.\n"); }
+	}
+	catch (PrecondViolatedExcep& pve) {
+		cout << pve.what() << "\nAdd aborted.\n";
+	}
+}
 
-		//for each day do while uses regex to check for proper format then checkDate checks for proper bounds
-	for (int count = 0; count < userMonths; count++) {
-		do {
-			printf("Enter Day %d in format yyyy/mm/dd\n>>", count + 1);
-			getline(cin, userString);
-			if (!regex_match(userString, validFormat)) { printf("Date was not in proper format"); }
-		} while (!regex_match(userString, validFormat) || !checkDate(userString, 1800, "Improper date entered\n>>"));
-			//rainfall is collected
-		printf("\nEnter rain fall in cm\n>>");
-		rainInCm = numberVerification(0.1, 2646.68, "\nEnter a value: 0.1-2646.68/n>>");
+void editData(DataHandler& dataHandler){
+	string userDate;
+	bool success;
+	double rainInCm;
+	printf("Enter a date to edit in format yyyy/mm/dd\n>>");
+	cin.ignore();
+	getline(cin, userDate);
+	printf("Enter a new amount of rain for this date\n>>");
+	rainInCm = numberVerification(0.0, 182.5, "Enter a value: 0-182.5");
+	try {
+		success = dataHandler.editData(userDate, rainInCm);
+		if (!success) { printf("Date does not exist in the data set.\n"); }
+	}
+	catch (PrecondViolatedExcep(&pve)) {
+		cout << pve.what() << "\nEdit Aborted.\n";
+	};
+}
 
-		//RainData newRainData{ userString, rainInCm };
+void print(DataHandler& dataHandler) {
+	dataHandler.printData();
+}
+
+void test(DataHandler& dataHandler) {
+	int year = 1999;
+	int month = 1;
+	int day = 0;
+	string sDay;
+	string sMonth;
+	string input;
+	for (int count = 1; count < 100; count++) {
+		if (day < 31) { day++; }
+		else if (month < 12) {
+			day = 1;
+			month++;
+		}
+		else {
+			year++;
+			month = 1;
+			day = 1;
+		}
+		if (day < 10) { sDay = "0" + to_string(day);}
+		else { sDay = to_string(day); }
+		if (month < 10) { sMonth = "0" + to_string(month); }
+		else { sMonth = to_string(month); }
+		input = to_string(year) + "/" + sMonth + "/" + sDay;
+		dataHandler.enterData(input, 1.1*count);
 	}
 }
